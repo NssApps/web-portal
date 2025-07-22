@@ -12,4 +12,7 @@ class WifiUserController extends Controller
       
         return view('portal.access-wifi');  
     }
+
+
+
 }
