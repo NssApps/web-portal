@@ -2,7 +2,7 @@
     <div class="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4">
         <div class="bg-white shadow-lg rounded-xl p-8 max-w-lg w-full text-center">
             {{-- Optional Logo --}}
-            <img src="{{ asset('img/yourlogo.png') }}" alt="Logo" class="h-12 mx-auto mb-6">
+            <img src="{{ asset('img/logo-nss.png') }}" alt="Logo" class="h-12 mx-auto mb-6">
 
             {{-- Welcome message --}}
             <h1 class="text-2xl font-semibold text-gray-800 mb-2">Thanks for signing in!</h1>

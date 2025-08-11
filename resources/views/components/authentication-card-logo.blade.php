@@ -1,1 +1,1 @@
-<img src="{{asset('img/yourlogo.png')}}" width="200" alt="">
+<img src="{{asset('img/logo-nss.png')}}" width="200" alt="">
