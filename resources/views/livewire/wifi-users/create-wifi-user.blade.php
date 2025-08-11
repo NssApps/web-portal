@@ -2,7 +2,7 @@
     <x-authentication-card>
         <x-slot name="logo">
             <x-authentication-card-logo />
-            
+            <span class="text-xl font-bold text-center">Your IT Solutions Parter</span>
         </x-slot>
         <div class="text-xl font-bold text-center">WiFi Access</div> 
         <div class="mb-4 text-sm text-center">Please register for free to access to our WiFi Network </div> 
