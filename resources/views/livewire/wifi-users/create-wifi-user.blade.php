@@ -23,11 +23,14 @@
             </div>
 
             <div class="block mt-4">
+                <span class="mb-2 text-sm text-gray-600 dark:text-gray-400">To access this free Wi-Fi network, you must provide a valid email address.
+                      By connecting, you agree to our Terms and Conditions and Privacy Policy, including the use of your email for marketing communications.
+                        You may unsubscribe at any time.</span>
                 <label for="terms" class="flex items-center">
                     <x-checkbox id="terms" name="terms" wire:model.defer="form.terms" required />
                     <span class="ms-2 text-sm text-gray-600 dark:text-gray-400">
                         {{ __('Yes, I accept the') }}
-                        <a href="" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">
+                        <a href="https://www.newsmartservices.com/term-and-conditions-internet-access/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-400">
                             {{ __('Terms of Service') }}
                         </a>
                     </span>
